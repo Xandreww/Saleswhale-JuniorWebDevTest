@@ -1,4 +1,82 @@
 @import '../../../styles/settings.scss';
 
-// .root {
-// }
+.root {
+  justify-content: space-between;
+  padding: 0 118px;
+  height: 108px;
+  align-items: center;
+
+  h1,
+  h2 {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.root,
+.headers,
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 186px;
+  height: 32px;
+  align-items: center;
+
+  .logoMark {
+    margin-right: 5px;
+  }
+
+  h1 {
+    font-size: 26px;
+    color: #17191b;
+  }
+}
+
+.headers {
+  justify-content: center;
+  width: 387px;
+  height: 23px;
+  justify-content: space-between;
+
+  h2 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    /* Rich Blue Black */
+    color: #002240;
+  }
+}
+
+.button2,
+.button1 {
+  width: 151px;
+  height: 42px;
+  right: 118px;
+  /* Primary Blue */
+
+  background: #0688fa;
+  border: 1px solid #0688fa;
+  mix-blend-mode: normal;
+  border-radius: 5px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+
+.button1 {
+  width: 96px;
+  margin-right: 13px;
+  background: white;
+  color: #0688fa;
+}
