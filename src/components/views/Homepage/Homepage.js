@@ -3,6 +3,7 @@ import { Statement } from '../Homepage/Statement/Statement';
 import { Culture } from '../Homepage/Culture/Culture';
 import { Progress } from '../Homepage/Progress/Progress';
 import { Offices } from '../Homepage/Offices/Offices';
+import { Investors } from '../Homepage/Investors/Investors';
 
 import styles from './Homepage.module.scss';
 
@@ -12,6 +13,7 @@ const Component = () => (
     <Culture />
     <Progress />
     <Offices />
+    <Investors />
   </div>
 );
 

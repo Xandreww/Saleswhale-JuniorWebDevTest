@@ -1,0 +1,38 @@
+.root {
+  padding: 45.5px 112px 79.5px 112px;
+}
+
+h1 {
+  width: 851px;
+  height: 62px;
+  left: 295px;
+  top: 79px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+  letter-spacing: 0.01em;
+
+  /* Rich Blue Black */
+  color: #002240;
+}
+
+.investors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.invBox {
+  margin: 33.5px 40px;
+  width: 528px;
+  height: 283px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
