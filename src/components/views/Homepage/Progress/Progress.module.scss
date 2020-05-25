@@ -1,0 +1,83 @@
+.root {
+  padding: 64px 118px 77px 118px;
+  position: relative;
+}
+
+h1 {
+  height: 62px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  margin-bottom: 64px;
+
+  /* Rich Blue Black */
+  color: #002240;
+}
+
+.progress {
+  width: 1205px;
+  height: 879px;
+  background: #eff8ff;
+  border-radius: 5px;
+
+  ul {
+    list-style-type: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 879px;
+    justify-content: space-evenly;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 119px;
+  }
+
+  .year {
+    width: 60.46px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+
+    /* Saleswhale Primary Blue */
+    color: #0688fa;
+  }
+
+  .mails {
+    width: 80px;
+    height: 80px;
+    margin: 0 45px 0 5px;
+    z-index: 1;
+  }
+
+  .event {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+
+    /* Rich Blue Black */
+    color: #002240;
+  }
+
+  .line {
+    position: absolute;
+    width: 0px;
+    height: 879px;
+    left: 381px;
+    top: 190px;
+
+    /* Saleswhale Primary Blue */
+    border: 3px solid #0688fa;
+  }
+}
