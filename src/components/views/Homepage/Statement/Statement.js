@@ -1,6 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import banner from '../../../images/banner.png';
+import banner from '../../../../images/banner.png';
 
 import styles from './Statement.module.scss';
 
@@ -29,11 +28,6 @@ const Component = () => (
     </div>
   </div>
 );
-
-Component.propTypes = {
-  children: PropTypes.node,
-  className: PropTypes.string,
-};
 
 export {
   Component as Statement,

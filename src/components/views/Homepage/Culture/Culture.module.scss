@@ -1,0 +1,113 @@
+.root {
+  padding: 80px 118px 70px 118px;
+}
+
+h1 {
+  height: 62px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+
+  /* Rich Blue Black */
+  color: #002240;
+}
+
+.middleP {
+  height: 59px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-feature-settings: 'kern' off;
+  margin-bottom: 53px;
+
+  /* Duck Egg Blue */
+  color: #537089;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .column {
+    width: 354px;
+    margin: 0 40px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h2 {
+    height: 42px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 34px;
+
+    /* Rich Blue Black */
+    color: #002240;
+  }
+
+  p {
+    height: 121px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+    /* Duck Egg Blue */
+    color: #537089;
+  }
+}
+
+.bottomP {
+  height: 48px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  /* Rich Blue Black */
+  color: #002240;
+}
+
+button {
+  width: 198px;
+  height: 59px;
+  display: block;
+  margin: 0 auto;
+
+  /* Saleswhale Primary Blue */
+  background: #0688fa;
+  mix-blend-mode: normal;
+  border: 1px solid #0688fa;
+  border-radius: 5px;
+
+  p {
+    height: 17px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #ffffff;
+  }
+}
