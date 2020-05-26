@@ -23,8 +23,8 @@ const Component = () => (
   <div className={styles.root}>
     <img className={styles.banner} src={banner} alt="banner - town painting"></img>
     <div className={styles.statement}>
-      <h1>A future where AI and humans work hand in hand</h1>
-      <article>{text}</article>
+      <h1 className={styles.statementHeader}>A future where AI and humans work hand in hand</h1>
+      <article className={styles.statementArticle}>{text}</article>
     </div>
   </div>
 );
