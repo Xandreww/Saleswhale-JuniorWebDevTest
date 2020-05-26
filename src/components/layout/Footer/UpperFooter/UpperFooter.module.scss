@@ -1,0 +1,84 @@
+.root {
+  padding: 87px 118px 52px 118px;
+}
+
+.root,
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  margin-right: 41px;
+
+  &:first-of-type {
+    margin-left: 186px;
+  }
+
+  &:nth-last-of-type(2) {
+    margin-right: 80px;
+  }
+}
+
+.lastColumn {
+  margin: 0;
+}
+
+.columnsHeader,
+.footerLi {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 42px;
+  margin: 0;
+
+  /* Rich Blue Black */
+  color: #002240;
+}
+
+.footerLi {
+  font-weight: normal;
+}
+
+.footerUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerP {
+  margin: 0;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 42px;
+
+  /* Rich Blue Black */
+  color: #002240;
+}
+
+.footerOfficesHeader {
+  margin: 0;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 35px;
+  /* Rich Blue Black */
+
+  color: #002240;
+}
+
+.footerOfficesP {
+  margin: 0;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  /* Rich Blue Black */
+  color: #002240;
+}

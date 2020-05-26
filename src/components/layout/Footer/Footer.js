@@ -1,18 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { UpperFooter } from './UpperFooter/UpperFooter';
 
 import styles from './Footer.module.scss';
 
-const Component = ({ children }) => (
+const Component = () => (
   <div className={styles.root}>
-    <h2>Footer</h2>
-    {children}
+    <UpperFooter />
   </div>
 );
-
-Component.propTypes = {
-  children: PropTypes.node,
-  className: PropTypes.string,
-};
 
 export { Component as Footer, Component as FooterComponent };
