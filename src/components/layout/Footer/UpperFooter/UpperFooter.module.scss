@@ -1,23 +1,19 @@
 .root {
   padding: 87px 118px 52px 118px;
-}
-
-.root,
-.columns {
   display: flex;
   flex-direction: row;
 }
 
+.columns {
+  display: flex;
+  flex-direction: row;
+  margin-left: 186px;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .column {
   margin-right: 41px;
-
-  &:first-of-type {
-    margin-left: 186px;
-  }
-
-  &:nth-last-of-type(2) {
-    margin-right: 80px;
-  }
 }
 
 .lastColumn {

@@ -43,7 +43,9 @@ const offices = [
 
 const Component = () => (
   <div className={styles.root}>
-    <SWLogo />
+    <div className={styles.SWLogoColumn}>
+      <SWLogo />
+    </div>
     <div className={styles.columns}>
       {data.map((column) => (
         <div className={styles.column} key={column.id}>
@@ -59,7 +61,7 @@ const Component = () => (
           </ul>
         </div>
       ))}
-      <div className={styles.lastColumn}>
+      <div className={styles.column}>
         <h2 className={styles.columnsHeader}>Contact</h2>
         <p className={styles.footerP}>hello@saleswhale.com</p>
         {offices.map((office) => (
