@@ -41,6 +41,7 @@
 
   .column {
     width: 354px;
+    height: 330px;
     margin: 0 40px;
   }
 
@@ -105,4 +106,61 @@
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding: 49px 66px 46px 66px;
+
+    .cultureHeader {
+      height: 33.42px;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -0.01em;
+    }
+
+    .middleP {
+      width: 429px;
+      height: 51px;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 16.5px auto 45px auto;
+    }
+
+    .column {
+      width: 183px;
+      margin: 0 20.5px;
+    }
+
+    .aPerson {
+      width: 56px;
+      height: 56px;
+    }
+
+    .cultureHeader2 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .cultureP {
+      height: 127px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .bottomP {
+      height: 60px;
+      width: 381px;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 auto 20px auto;
+    }
+
+    .cultureButton {
+      width: 167px;
+      height: 42px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
 }
