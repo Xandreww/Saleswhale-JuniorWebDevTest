@@ -64,3 +64,12 @@
   /* Primary Blue */
   color: #0688fa;
 }
+
+@media (max-width: 768px) {
+  .root {
+    .headers,
+    .buttons {
+      display: none;
+    }
+  }
+}
