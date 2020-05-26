@@ -18,7 +18,7 @@ const data = [
 
 const Component = () => (
   <div className={styles.root}>
-    <h1>Our offices</h1>
+    <h1 className={styles.officesHeader}>Our offices</h1>
     <div className={styles.offices}>
       {data.map((office) => (
         <div key={office.id} className={styles.office}>

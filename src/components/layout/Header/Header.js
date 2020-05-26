@@ -7,12 +7,12 @@ const Component = () => (
   <div className={styles.root}>
     <div className={styles.logo}>
       <img src={logomark} className={styles.logoMark} alt="saleswhale icon" />
-      <h1>saleswhale</h1>
+      <h1 className={styles.logoHeader}>saleswhale</h1>
     </div>
     <div className={styles.headers}>
-      <h2>Why Saleswhale?</h2>
-      <h2>Product</h2>
-      <h2>Company</h2>
+      <h2 className={styles.header}>Why Saleswhale?</h2>
+      <h2 className={styles.header}>Product</h2>
+      <h2 className={styles.header}>Company</h2>
     </div>
     <div className={styles.buttons}>
       <button className={styles.button1}>Log In</button>

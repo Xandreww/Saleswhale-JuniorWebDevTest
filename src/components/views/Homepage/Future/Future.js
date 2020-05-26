@@ -5,14 +5,10 @@ import styles from './Future.module.scss';
 const Component = () => (
   <div className={styles.root}>
     <div className={styles.future}>
-      <h1>See the future</h1>
+      <h1 className={styles.futureHeader}>See the future</h1>
       <div className={styles.buttons}>
-        <button className={styles.button1}>
-          <p className={styles.button1p}>Get a Demo</p>
-        </button>
-        <button className={styles.button2}>
-          <p className={styles.button2p}>Read use cases</p>
-        </button>
+        <button className={styles.futureButton1}>Get a Demo</button>
+        <button className={styles.futureButton2}>Read use cases</button>
       </div>
     </div>
   </div>

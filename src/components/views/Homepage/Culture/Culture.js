@@ -27,21 +27,23 @@ const data = [
 
 const Component = () => (
   <div className={styles.root}>
-    <h1>Our Culture</h1>
+    <h1 className={styles.cultureHeader}>Our Culture</h1>
     <p className={styles.middleP}>At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
     <div className={styles.columns}>
       {data.map((i) => (
         <div key={i.id} className={styles.column}>
-          <img src={image} alt="guy"></img>
-          <h2 key={i.id}>{i.header}</h2>
-          <p key={i.id}>{i.content}</p>
+          <img className={styles.aPerson} src={image} alt="a person"></img>
+          <h2 className={styles.cultureHeader2} key={i.id}>
+            {i.header}
+          </h2>
+          <p className={styles.cultureP} key={i.id}>
+            {i.content}
+          </p>
         </div>
       ))}
     </div>
     <p className={styles.bottomP}>If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
-    <button className={styles.button1}>
-      <p>Join the team</p>
-    </button>
+    <button className={styles.cultureButton}>Join the team</button>
   </div>
 );
 

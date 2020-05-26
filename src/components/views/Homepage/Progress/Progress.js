@@ -33,12 +33,12 @@ const data = [
 
 const Component = () => (
   <div className={styles.root}>
-    <h1>Our progress</h1>
+    <h1 className={styles.progressHeader}>Our progress</h1>
     <div className={styles.progress}>
       <div className={styles.line}></div>
-      <ul>
+      <ul className={styles.progressUl}>
         {data.map((record) => (
-          <li key={record.id}>
+          <li className={styles.progressLi} key={record.id}>
             <p className={styles.year} key={record.id}>
               {record.year}
             </p>

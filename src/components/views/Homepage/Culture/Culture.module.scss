@@ -2,7 +2,7 @@
   padding: 80px 118px 70px 118px;
 }
 
-h1 {
+.cultureHeader {
   height: 62px;
   font-family: Source Sans Pro;
   font-style: normal;
@@ -44,12 +44,12 @@ h1 {
     margin: 0 40px;
   }
 
-  img {
+  .aPerson {
     width: 80px;
     height: 80px;
   }
 
-  h2 {
+  .cultureHeader2 {
     height: 42px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -61,7 +61,7 @@ h1 {
     color: #002240;
   }
 
-  p {
+  .cultureP {
     height: 121px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -88,7 +88,7 @@ h1 {
   color: #002240;
 }
 
-button {
+.cultureButton {
   width: 198px;
   height: 59px;
   display: block;
@@ -99,15 +99,10 @@ button {
   mix-blend-mode: normal;
   border: 1px solid #0688fa;
   border-radius: 5px;
-
-  p {
-    height: 17px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 23px;
-
-    color: #ffffff;
-  }
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
 }

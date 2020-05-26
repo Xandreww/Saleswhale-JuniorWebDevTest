@@ -14,7 +14,7 @@
   border-radius: 5px;
 }
 
-h1 {
+.futureHeader {
   width: 1198px;
   height: 74px;
   font-family: Source Sans Pro;
@@ -32,44 +32,30 @@ h1 {
   flex-direction: row;
 }
 
-.button1,
-.button2 {
+.futureButton1,
+.futureButton2 {
   width: 272px;
   height: 62px;
   background: #ffffff;
+  border: 1px solid #ffffff;
   mix-blend-mode: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+
+  /* Rich Blue Black */
+  color: #002240;
 
   /* Shadow / Button */
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
-.button2 {
-  margin-left: 29px;
-
-  /* Call to action / Blue */
-  background: #329dfa;
+.futureButton2 {
   border: 1px solid #ffffff;
-}
-
-.button1p,
-.button2p {
-  width: 124px;
-  height: 17px;
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
-  margin: 0;
-
-  /* Rich Blue Black */
-  color: #002240;
-}
-
-.button2p {
+  background: #329dfa;
   color: #ffffff;
+  margin-left: 29px;
 }

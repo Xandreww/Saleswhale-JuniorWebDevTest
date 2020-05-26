@@ -10,7 +10,7 @@ const invs = [inv1, inv2, inv3, inv4];
 
 const Component = () => (
   <div className={styles.root}>
-    <h1>Our Investors</h1>
+    <h1 className={styles.investorsHeader}>Our Investors</h1>
     <div className={styles.investors}>
       {invs.map((inv) => (
         <div className={styles.invBox} key={'inv'}>

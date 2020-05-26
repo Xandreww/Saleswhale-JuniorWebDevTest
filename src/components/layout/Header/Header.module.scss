@@ -4,9 +4,8 @@
   height: 108px;
   align-items: center;
 
-  h1,
-  h2 {
-    display: inline;
+  .logoHeader,
+  .header {
     margin: 0;
   }
 }
@@ -27,9 +26,10 @@
     margin-right: 5px;
   }
 
-  h1 {
+  .logoHeader {
     font-size: 26px;
     color: #17191b;
+    line-height: 60px;
   }
 }
 
@@ -39,7 +39,7 @@
   height: 23px;
   justify-content: space-between;
 
-  h2 {
+  .header {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
@@ -50,6 +50,11 @@
     /* Rich Blue Black */
     color: #002240;
   }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
 }
 
 .button2,
@@ -76,5 +81,7 @@
   width: 96px;
   margin-right: 13px;
   background: white;
+
+  /* Primary Blue */
   color: #0688fa;
 }
