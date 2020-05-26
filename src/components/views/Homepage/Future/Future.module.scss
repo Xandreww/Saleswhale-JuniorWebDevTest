@@ -59,3 +59,26 @@
   color: #ffffff;
   margin-left: 29px;
 }
+
+@media (max-width: 768px) {
+  .root {
+    padding: 20px 24px;
+  }
+
+  .future {
+    height: 215px;
+  }
+
+  .futureHeader {
+    width: 645.83px;
+    height: 39.89px;
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  .futureButton1,
+  .futureButton2 {
+    width: 146px;
+    height: 43px;
+  }
+}
