@@ -19,7 +19,7 @@ const Component = () => (
         <img src={linkedin} className={styles.footerIcon} alt="linkedin icon" />
       </div>
     </div>
-    <p>© 2020 Saleswhale, Inc. All rights reserved.</p>
+    <p className={styles.bottomFooterP}>© 2020 Saleswhale, Inc. All rights reserved.</p>
     <img src={footerWaves} className={styles.footerWaves} alt="background waves" />
   </div>
 );

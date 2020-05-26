@@ -1,10 +1,14 @@
-.root {
-  padding: 60px 118px 0px 118px;
-}
-
 .bottomFooter {
   display: flex;
   justify-content: space-between;
+}
+
+.bottomFooter {
+  padding: 60px 118px 0px 118px;
+}
+
+.bottomFooterP {
+  padding: 0 118px;
 }
 
 .bottomFooterHeaders {
@@ -37,4 +41,5 @@
 
 .footerWaves {
   margin-top: 32px;
+  width: 100%;
 }
