@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 186px;
+  height: 32px;
+  align-items: center;
+
+  .logoMark {
+    margin-right: 5px;
+  }
+
+  .logoHeader {
+    font-size: 26px;
+    color: #17191b;
+    line-height: 60px;
+  }
+}

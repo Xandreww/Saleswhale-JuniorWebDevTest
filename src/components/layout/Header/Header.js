@@ -1,14 +1,11 @@
 import React from 'react';
-import logomark from '../../../images/logomark.png';
+import { SWLogo } from '../../common/SWLogo/SWLogo';
 
 import styles from './Header.module.scss';
 
 const Component = () => (
   <div className={styles.root}>
-    <div className={styles.logo}>
-      <img src={logomark} className={styles.logoMark} alt="saleswhale icon" />
-      <h1 className={styles.logoHeader}>saleswhale</h1>
-    </div>
+    <SWLogo />
     <div className={styles.headers}>
       <h2 className={styles.header}>Why Saleswhale?</h2>
       <h2 className={styles.header}>Product</h2>

@@ -3,34 +3,12 @@
   padding: 0 118px;
   height: 108px;
   align-items: center;
-
-  .logoHeader,
-  .header {
-    margin: 0;
-  }
 }
 
 .root,
-.headers,
-.logo {
+.headers {
   display: flex;
   flex-direction: row;
-}
-
-.logo {
-  width: 186px;
-  height: 32px;
-  align-items: center;
-
-  .logoMark {
-    margin-right: 5px;
-  }
-
-  .logoHeader {
-    font-size: 26px;
-    color: #17191b;
-    line-height: 60px;
-  }
 }
 
 .headers {
@@ -40,6 +18,7 @@
   justify-content: space-between;
 
   .header {
+    margin: 0;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
