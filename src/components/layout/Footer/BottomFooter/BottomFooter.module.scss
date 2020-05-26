@@ -1,0 +1,40 @@
+.root {
+  padding: 60px 118px 0px 118px;
+}
+
+.bottomFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomFooterHeaders {
+  display: flex;
+}
+
+.bottomFooterHeader {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  /* Rich Blue Black */
+  color: #002240;
+
+  &:first-of-type {
+    margin-right: 30px;
+  }
+}
+
+.footerIcon {
+  margin-right: 20px;
+
+  &:nth-of-type(3) {
+    margin-right: 00px;
+  }
+}
+
+.footerWaves {
+  margin-top: 32px;
+}
