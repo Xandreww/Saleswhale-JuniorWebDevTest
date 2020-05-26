@@ -39,3 +39,28 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .root {
+    padding: 22px 66px 0px 66px;
+  }
+
+  .investorsHeader {
+    width: 458.77px;
+    height: 34px;
+    font-size: 31.2674px;
+    line-height: 33px;
+    margin: 0 auto;
+  }
+
+  .invBox {
+    width: 272px;
+    height: 145.79px;
+    margin: 16px 20px;
+  }
+
+  .invLogo {
+    max-width: 70%;
+    height: auto;
+  }
+}

@@ -14,7 +14,7 @@ const Component = () => (
     <div className={styles.investors}>
       {invs.map((inv) => (
         <div className={styles.invBox} key={'inv'}>
-          <img src={inv} alt="investor logo"></img>
+          <img className={styles.invLogo} src={inv} alt="investor logo"></img>
         </div>
       ))}
     </div>
