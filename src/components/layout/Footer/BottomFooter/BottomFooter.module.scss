@@ -39,11 +39,35 @@
   margin-right: 20px;
 
   &:nth-of-type(3) {
-    margin-right: 00px;
+    margin-right: 0px;
   }
 }
 
 .footerWaves {
   margin-top: 32px;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .bottomFooter {
+    padding: 30px 59px 0px 59px;
+  }
+
+  .bottomFooterP {
+    padding: 0 59px;
+  }
+
+  .bottomFooterHeader {
+    font-size: 16px;
+    line-height: 14px;
+
+    &:first-of-type {
+      margin-right: 12px;
+    }
+  }
+
+  .footerIcon {
+    width: 28px;
+    height: 28px;
+  }
 }

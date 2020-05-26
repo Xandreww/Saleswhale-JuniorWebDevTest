@@ -43,7 +43,7 @@ const offices = [
 
 const Component = () => (
   <div className={styles.root}>
-    <div className={styles.SWLogoColumn}>
+    <div>
       <SWLogo />
     </div>
     <div className={styles.columns}>
