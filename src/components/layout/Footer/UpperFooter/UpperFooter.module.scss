@@ -78,3 +78,41 @@
   /* Rich Blue Black */
   color: #002240;
 }
+
+@media (max-width: 768px) {
+  .root {
+    padding: 50px 62px 65px 62px;
+  }
+
+  .columns {
+    margin-left: 106px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
+  .column {
+    margin-right: 0px;
+    width: 181px;
+
+    &:nth-of-type(1),
+    &:nth-of-type(2) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .columnsHeader,
+  .footerLi,
+  .footerP {
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+  .footerOfficesHeader {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .footerOfficesP {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
