@@ -82,3 +82,45 @@
     border: 3px solid #0688fa;
   }
 }
+
+@media (max-width: 768px) {
+  .root {
+    padding: 22px 66px 22px 66px;
+  }
+
+  .progressHeader {
+    height: 33.42px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    margin-bottom: 50px;
+  }
+
+  .progress {
+    .line {
+      left: 205px;
+      top: 127px;
+    }
+
+    .progressLi {
+      margin-left: 18px;
+    }
+
+    .year {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .mails {
+      width: 60px;
+      height: 60px;
+      margin: 0px 20px 0 5px;
+      z-index: 1;
+    }
+
+    .event {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+}
