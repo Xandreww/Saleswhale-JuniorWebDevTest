@@ -164,3 +164,70 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  .root {
+    padding: 39px 26px 22px 26px;
+
+    .cultureHeader {
+      height: 38px;
+      font-size: 28px;
+      line-height: 110%;
+      text-align: left;
+    }
+
+    .middleP {
+      text-align: left;
+      height: 91px;
+      width: auto;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 0 26px 0;
+    }
+
+    .columns {
+      flex-direction: column;
+
+      .column {
+        margin: 0 0 33px 0;
+        width: auto;
+        height: auto;
+      }
+
+      .aPerson {
+        width: 56px;
+        height: 56px;
+      }
+
+      .cultureHeader2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 8px 0 10px 0;
+        width: auto;
+        height: auto;
+      }
+
+      .cultureP {
+        width: auto;
+        height: 92px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+      }
+    }
+
+    .bottomP {
+      height: 80px;
+      width: auto;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .cultureButton {
+      width: 272px;
+      height: 49px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
