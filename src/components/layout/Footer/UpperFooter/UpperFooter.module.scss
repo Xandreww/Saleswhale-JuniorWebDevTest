@@ -89,6 +89,7 @@
     flex-wrap: wrap;
     margin-left: 80px;
   }
+
   .column {
     margin-right: 0px;
     width: 181px;
@@ -114,5 +115,47 @@
   .footerOfficesP {
     font-size: 15px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .root {
+    padding: 37px 20px 24px 20px;
+    display: block;
+    flex-direction: column;
+  }
+
+  .logoDiv {
+    margin-bottom: 30px;
+  }
+
+  .columns {
+    margin: 0;
+  }
+
+  .column {
+    max-width: 140px;
+  }
+
+  .columnsHeader,
+  .footerLi,
+  .footerP,
+  .footerOfficesHeader,
+  .footerOfficesP {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .footerUL {
+    max-width: 140px;
+  }
+
+  .footerLi {
+    margin-bottom: 10px;
+  }
+
+  .footerOfficesP {
+    font-size: 15px;
+    line-height: 25px;
   }
 }
