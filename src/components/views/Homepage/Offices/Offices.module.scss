@@ -137,3 +137,59 @@
     line-height: 16px;
   }
 }
+
+@media (max-width: 320px) {
+  .root {
+    padding: 33px 22px;
+    background-size: cover;
+  }
+
+  .officesHeader {
+    height: 43px;
+    font-size: 28px;
+    line-height: 110%;
+    margin-bottom: 20px;
+  }
+
+  .offices {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .office {
+    padding: 23px 0 0 0;
+    margin: 0;
+    width: 271px;
+    height: 199px;
+
+    &:nth-of-type(1) {
+      margin: 0 0 37px 0;
+    }
+
+    &:nth-of-type(2) {
+      margin: 0;
+    }
+  }
+
+  .portrait {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 8px;
+  }
+
+  .city {
+    width: 255px;
+    height: 42px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .address {
+    width: 256px;
+    height: 74px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
