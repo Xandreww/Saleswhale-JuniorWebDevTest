@@ -18,8 +18,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Header,
-  // Container as Header,
-  Component as HeaderComponent,
-};
+export { Component as Header, Component as HeaderComponent };

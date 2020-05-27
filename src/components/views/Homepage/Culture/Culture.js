@@ -47,8 +47,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Culture,
-  // Container as Culture,
-  Component as CultureComponent,
-};
+export { Component as Culture, Component as CultureComponent };

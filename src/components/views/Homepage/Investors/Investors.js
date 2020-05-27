@@ -21,8 +21,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Investors,
-  // Container as Investors,
-  Component as InvestorsComponent,
-};
+export { Component as Investors, Component as InvestorsComponent };

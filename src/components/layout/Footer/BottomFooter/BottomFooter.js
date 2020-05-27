@@ -24,8 +24,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as BottomFooter,
-  // Container as BottomFooter,
-  Component as BottomFooterComponent,
-};
+export { Component as BottomFooter, Component as BottomFooterComponent };

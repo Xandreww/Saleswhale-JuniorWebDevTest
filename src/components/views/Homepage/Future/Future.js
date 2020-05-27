@@ -14,8 +14,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Future,
-  // Container as Future,
-  Component as FutureComponent,
-};
+export { Component as Future, Component as FutureComponent };

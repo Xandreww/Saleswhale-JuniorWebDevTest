@@ -53,8 +53,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Progress,
-  // Container as Progress,
-  Component as ProgressComponent,
-};
+export { Component as Progress, Component as ProgressComponent };

@@ -35,8 +35,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Offices,
-  // Container as Offices,
-  Component as OfficesComponent,
-};
+export { Component as Offices, Component as OfficesComponent };

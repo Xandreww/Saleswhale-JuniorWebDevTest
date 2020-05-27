@@ -19,8 +19,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Homepage,
-  // Container as Culture,
-  Component as HomepageComponent,
-};
+export { Component as Homepage, Component as HomepageComponent };

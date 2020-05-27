@@ -1,6 +1,5 @@
 import React from 'react';
 import logomark from '../../../images//logomark.png';
-// import logomark from '../../../images/logomark.png';
 
 import styles from './SWLogo.module.scss';
 
@@ -13,8 +12,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as SWLogo,
-  // Container as SWLogo,
-  Component as SWLogoComponent,
-};
+export { Component as SWLogo, Component as SWLogoComponent };

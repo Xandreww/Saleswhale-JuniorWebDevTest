@@ -29,8 +29,4 @@ const Component = () => (
   </div>
 );
 
-export {
-  Component as Statement,
-  // Container as Statement,
-  Component as StatementComponent,
-};
+export { Component as Statement, Component as StatementComponent };
