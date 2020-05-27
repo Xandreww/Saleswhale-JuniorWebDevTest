@@ -82,3 +82,50 @@
     height: 43px;
   }
 }
+
+@media (max-width: 320px) {
+  .root {
+    padding: 20px 0px;
+  }
+
+  .future {
+    height: 377px;
+    position: relative;
+
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 400px 40px 0;
+      border-color: transparent white transparent transparent;
+      right: 0;
+      top: 0;
+      position: absolute;
+    }
+  }
+
+  .futureHeader {
+    width: 270px;
+    height: 117px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .futureButton1,
+  .futureButton2 {
+    margin: 0;
+    width: 272px;
+    height: 49px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .futureButton1 {
+    margin-bottom: 25px;
+  }
+}
